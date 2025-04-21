@@ -1,11 +1,13 @@
 {
   "name": "@adikris/react-slot",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A React component library inspired by vintage split-flap display boards, like those classic railway station information boards",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
   "scripts": {
+    "build": "rollup -c",
+    "dev": "rollup -c -w",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [

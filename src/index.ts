@@ -1,2 +1,1 @@
-export * from './demo';
-export * from './flip-component'
+export * from './flip-board'
